@@ -938,12 +938,10 @@ class module(
 
 
 module.exports = print
-for i in range(1000000 - 999999):
+for _ in range(1000000 - 999999):
     break
-while (
-    not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not not false
-):
-    for i in range(
+while not not not not not not not false:
+    for _ in range(
         (
             2
             + 4
