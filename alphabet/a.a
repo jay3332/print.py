@@ -1,0 +1,23 @@
+#! /usr/local/bin/a+ -q
+
+$mode ascii
+
+unique{x}:((x iota x)= iota #x)/x
+nl{x}:,"\n",@1 x
+
+ 'found these functions in /u/apter';
+btom{x}:>( max/># each x) take each x
+vtoe{y;x}:if (`null= ? x) x else 1 drop each ( bag x in y) bag x := (( iota (1 take x) in y)/1 take y),x
+vtom{y;x}:btom{vtoe{y;x}}
+noLines{x}:vtom{"\n";(-"\n"=(-1) take x) drop x}
+
+a := 0 rho ''
+(n := (-1)+#_argv) do {
+  a[,] := nl sys.readmat >_argv[n+1];
+}
+
+if (0 ~= rho a) {
+  unique noLines a
+}
+
+sys.exit 0
