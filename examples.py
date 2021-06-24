@@ -1,3 +1,3 @@
 from print import print
 
-print('Hello')
+print("Hello")
